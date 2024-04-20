@@ -5,4 +5,4 @@ imc = ... # Ellipsis
 # IMC = peso / (altura x altura)
 
 imc = peso / (altura ** 2)
-print (nome, 'tem', str(altura), 'de altura, pesa', str(peso), 'quilos e seu IMC é', str(imc))
+print (nome, 'tem', altura, 'de altura, pesa', peso, 'quilos e seu IMC é', imc)
