@@ -9,17 +9,16 @@
 # Também existe o tipo None que é 
 # usado para representar um não valor
 
-
 """ entrada = input('[E]ntrar [S]air: ')
 senha_digitada = input('Senha: ')
 
 senha_permitada = '123456'
-# if True:
-#    ...
-if entrada == 'E' and senha_digitada == senha_permitada:
+
+if (entrada == 'E' or entrada == 'e') and senha_digitada == senha_permitada:
     print('Entrar')
 else:
     print('Sair') """
 
 # Avaliação de curto circuito
-print(True and bool(0) and True)
+senha = 0 or 0.0 or False or '' or bool('abc') 
+print(senha)
