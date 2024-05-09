@@ -9,6 +9,4 @@ while index < len(nome):
     novo_nome += nome[index] + '*' 
     index += 1
 
-print(
-novo_nome
-)
+print(novo_nome)
