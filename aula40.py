@@ -4,8 +4,11 @@ while True:
     numero_1 = input('Digite um número: ')
     numero_2 = input('Digite outro número: ')
     operador = input('Digite o operador (+ - / *): ')
-
+    
+    # Lógica da checagem dos dados recebidos
     numeros_validos = None
+    num_1_float = 0
+    num_2_float = 0
 
     try:
         num_1_float = float(numero_1)
@@ -28,8 +31,23 @@ while True:
         print('Digite apenas um operador.')
         continue
     
-    ### Lógica das contas
+    # Lógica das contas
+    resultado = 0
+    if operador == '+':
+        resultado = num_1_float + num_2_float
+    elif operador == '-':
+        resultado = num_1_float - num_2_float
+    elif operador == '*':
+        resultado = num_1_float * num_2_float
+    elif operador == '/':
+        resultado = num_1_float / num_2_float
+    else:
+        print('Nunca deveria chegar aqui.')
+    
+    print(f'Realizando sua conta.\nConfira o resultado: {resultado}')
 
+
+    # Lógica de sair da aplicação
     sair = input('Quer sair: [s]im: ').lower().startswith('s')
 
     if sair is True:
