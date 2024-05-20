@@ -47,7 +47,7 @@ try:
         if multiplicador_1 >= 2:            
             somados_1 += (int(numero_separado) * multiplicador_1)
             multiplicador_1 -= 1
-        elif multiplicador_2 >= 2:
+        if multiplicador_2 >= 2:
             somados_2 += (int(numero_separado) * multiplicador_2)
             multiplicador_2 -= 1     
 except TypeError:
