@@ -33,18 +33,18 @@
 # Métodos úteis:
 # add, update, clear, discard
 
-s1 = set()
-s1.add('Alexandre')
-s1.add(1)
+# s1 = set()
+# s1.add('Alexandre')
+# s1.add(1)
 
-s1.update(('Olá mundo', 1, 2, 3, 4))
+# s1.update(('Olá mundo', 1, 2, 3, 4))
 
-# s1.clear()
+# # s1.clear()
 
-s1.discard('Olá mundo')
-s1.discard('Alexandre')
+# s1.discard('Olá mundo')
+# s1.discard('Alexandre')
 
-print(s1)
+# print(s1)
 
 
 # Operadores úteis:
@@ -52,3 +52,22 @@ print(s1)
 # intersecção & (intersection) - Itens presentes em ambos
 # diferença - Itens presentes apenas no set da esquerda
 # diferença simétrica ^ - Itens que não estão em ambos
+
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+
+# união
+s3 = s1 | s2
+print(s3)
+
+# intersecção
+s3 = s1 & s2
+print(s3)
+
+# diferença
+s3 = s1 - s2  # a ordem importa
+print(s3)
+
+# diferença simétrica
+s3 = s1 ^ s2
+print(s3)
