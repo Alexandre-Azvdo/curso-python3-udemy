@@ -1,7 +1,8 @@
-from aula113_package.modulo_b import fala_oi
+# from aula113_package.modulo_b import fala_oi
 
 __all__ = [
     'variavel', 
+    'soma_do_modulo',
 ]
 
 variavel = 'Alguma coisa'

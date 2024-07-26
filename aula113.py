@@ -13,7 +13,12 @@ from aula113_package.modulo import *
 # print(soma_do_modulo(2, 3))
 # print(variavel)
 
-from aula113_package.modulo import fala_oi
+# from aula113_package.modulo import fala_oi
 
-print(__name__)
-fala_oi()
+# print(__name__)
+# fala_oi()
+
+from aula113_package import soma_do_modulo, falar_oi
+
+print(soma_do_modulo(2, 3))
+falar_oi()
