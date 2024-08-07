@@ -15,15 +15,12 @@ def criar_funcao(func):
         return resultado
     return interna
 
-
 def inverte_string(string):
     return string[::-1]
-
 
 def e_string(param):
     if not isinstance(param, str):
         raise TypeError('param deve ser uma string')
-
 
 inverte_string_checando_parametro = criar_funcao(inverte_string)
 invertida = inverte_string_checando_parametro('123')
