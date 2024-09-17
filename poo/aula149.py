@@ -13,7 +13,7 @@ class Pessoa:
         return Pessoa.ano_atual - self.idade
 
 p1 = Pessoa('Alexandre', 39)
-p2 = Pessoa('Gustado', 5)
+p2 = Pessoa('Gustavo', 5)
 
 print(Pessoa.ano_atual)
 # Pessoa.ano_atual = 1
