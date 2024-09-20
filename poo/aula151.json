@@ -1,0 +1,23 @@
+[
+  {
+    "marca": "Fiat",
+    "modelo": "Punto",
+    "placa": "RZZ1F56",
+    "ano_fabricacao": "2020",
+    "ano_modelo": "2021"
+  },
+  {
+    "marca": "Chevolet",
+    "modelo": "Onix",
+    "placa": "KKF4R56",
+    "ano_fabricacao": "2022",
+    "ano_modelo": "2023"
+  },
+  {
+    "marca": "Hyday",
+    "modelo": "HB20",
+    "placa": "RZH6T56",
+    "ano_fabricacao": "2024",
+    "ano_modelo": "2024"
+  }
+]
