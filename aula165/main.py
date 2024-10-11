@@ -1,9 +1,10 @@
-from log import LogFileMixin, LogPrintMixin
+from eletronico import Smartphone
+
+galaxy_s = Smartphone('Galaxy S')
+iphone = Smartphone('iPhone')
 
 
-lp = LogPrintMixin()
-lp.log_error('Log não executado')
-lp.log_success('Log bem sucedido')
-lf = LogFileMixin()
-lf.log_error('Log não executado')
-lf.log_success('Log bem sucedido')
+galaxy_s.ligar()
+iphone.desligar()
+
+# galaxy_s.desligar()
