@@ -1,0 +1,2 @@
+Error: Log não executado (LogFileMixin)
+Success: Log bem sucedido (LogFileMixin)
