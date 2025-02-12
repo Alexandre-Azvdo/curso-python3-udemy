@@ -20,3 +20,7 @@ class Pessoa:
     def idade(self, idade: int):
         self._idade = idade
 
+    def __repr__(self):
+        class_name = type(self).__name__
+        attrs = f'({self.nome!r}, {self.idade!r})'
+        return f'{class_name} {attrs}'
