@@ -7,7 +7,7 @@ class Cliente(Pessoa):
         self.numero_conta: contas.Conta | None = None
 
 
-if __name__ == '__maim__':
+if __name__ == '__main__':
 
     c1 = Cliente('Alexandre', 39)
     c1.numero_conta = contas.ContaCorrente(111, 222, 0, 0)
